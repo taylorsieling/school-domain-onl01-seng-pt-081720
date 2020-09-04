@@ -17,11 +17,11 @@ class School
   end
   
   def sort
-    grade_level = {}
+    sorted = {}
     roster.each do |grade, student_name|
-      grade_level[grade] = student_name.sort
+      sorted[grade] = student_name.sort
     end
-      grade_level.sort
+      sorted.sort
   end
 
 end
